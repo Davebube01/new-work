@@ -2,11 +2,41 @@ h2{
     text-align: center;
 }
 
+.navbar{
+    padding-top: 0em !important;
+    padding-bottom: 0em !important;
+    background-color: #323232;
+    /* position: sticky !important; */
+    margin-bottom: 0px !important
 
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
+.nav-link:focus{
+    color: #1ddb0c !important;
+}
+
+.nav-link:hover {
+    color: #1ddb0c !important;
+}
+
+
+.nav-item {
+    padding-left: 38px;
+    display: inline-block;
+}
+
+.img-link{
+    width: fit-content;
+}
 #home{
     height: 85vh;
     width: 100%;
-    background: linear-gradient(180deg, transparent, rgb(14, 9, 2, 0.5), rgb(14, 9, 2, 0.5)), url(/product-page-with-image-carousel/assets/realhome.jpg);
+    background: linear-gradient(180deg, transparent, rgb(14, 9, 2, 0.5), rgb(14, 9, 2, 0.5)), url(/product-page-with-image-carousel/assets/fine\ dining\ 1.jpg);
     background-size: cover;
     background-position: center;
     margin: 0;
