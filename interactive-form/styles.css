@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(90deg, transparent, rgba(14, 9, 2, 0.5), rgba(14, 9, 2, 0.5)), url(/interactive-form/assets2/Depositphotos_40960757_XL.jpg);
+    background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(50, 57, 78);
+ 
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(14, 9, 2, 0.5);
+    height: 400px;
+    width: 350px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px rgb(0, 0, 0);
+}
+
+.pass {
+    display: flex;
+    flex-direction: column;
+}
+
+.image h2 {
+    color: white;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.username input,
+.pass input {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30px;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+
+.submit_btn {
+    height: 30px;
+    width: 80px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    
+    background-color: rgba(107, 110, 141, 0.596);;
+    margin-top: 15px;
+}
+
+.submit_btn:hover {
+    background-color: rgb(0, 179, 95);
+    color: rgb(14, 14, 14);
+    cursor: pointer;
+}
