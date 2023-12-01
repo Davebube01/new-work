@@ -80,14 +80,7 @@ body {
     background: #ccc;
 }
 
-  /* #search-input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    outline: none;
-  } */
+
   
   #autocomplete-suggestions {
     list-style: none;
